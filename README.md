@@ -14,6 +14,7 @@ once, subject to the constraint that the total time taken by the robot (includin
 does not exceed a given time limit T. 
 
 * Test case 1:
+
 V = {h, A, B, C}
 E = {(h, A), (h, B), (h, C), (A, B), (A, C), (B, C)}
 Weights = {2,2,3,4,5,8}
@@ -22,6 +23,7 @@ T = 38
 Expected output: (h, B, A, C, h) 
 
 * Test case 2:
+
 V={h, A, B, C}
 E = {(h, A), (h, B), (h, C), (A, B), (A, C), (B, C)}
 Weights = {1,2,3,4,5,6}
