@@ -16,28 +16,18 @@ does not exceed a given time limit T.
 * Test case 1:
 
       V = {h, A, B, C}
-
       E = {(h, A), (h, B), (h, C), (A, B), (A, C), (B, C)}
-
       Weights = {2,2,3,4,5,8}
-
       t(A) = 5, t(B) = 10, t(C) = 8
-
       T = 38
-
       Expected output: (h, B, A, C, h) 
 
 * Test case 2:
 
       V={h, A, B, C}
-
       E = {(h, A), (h, B), (h, C), (A, B), (A, C), (B, C)}
-
       Weights = {1,2,3,4,5,6}
-
       t(A) = 5, t(B) = 10, t(C) = 8
-
       T = 20
-
-Expected output: NO FEASIBLE CIRCUIT
+      Expected output: NO FEASIBLE CIRCUIT
 
